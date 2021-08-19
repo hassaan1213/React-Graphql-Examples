@@ -60,7 +60,7 @@ export default App;
   //   createUser({
   //     variables: {
   //       name: '',
-  //       age: 26,
+  //       age: 21,
   //       married: false
   //     }, refetechQueries:[{
   //          query: LOAD_USERS
