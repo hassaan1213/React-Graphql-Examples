@@ -15,11 +15,11 @@ function GithubAPI() {
 
         // Immediately Invoked Function Expression - IIFE
         (async () => {
-            const { data: user } = await api.get('/users/uqutub')
+            const { data: user } = await api.get('/users/hassaan1213')
             console.log('user ', user)
             setUserData(user);      // update state of the userData
 
-            const { data: repo } = await api.get('/users/uqutub/repos')
+            const { data: repo } = await api.get('/users/hassaan1213/repos')
             console.log('repos: ', repo)
             setUserRepos(repo);     // update state of the userRepos
         })()
