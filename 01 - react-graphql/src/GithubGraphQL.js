@@ -76,7 +76,7 @@ function GithubAPI() {
     }
 
     useEffect(() => {
-        fetchData_ql("qutbITech")
+        fetchData_ql("Hassaan's Tech")
     }, [])
 
 
