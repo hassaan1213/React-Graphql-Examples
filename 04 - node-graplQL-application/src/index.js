@@ -47,7 +47,7 @@ app.get('/', (req, res)=> {
 })
 
 app.get('/github/:name', (req, res)=> {
-    // Endpoint: http://localhost:4000/github/uqutub
+    // Endpoint: http://localhost:4000/github/hassaan1213
     res.json({
         username: req.params.name,
         githutb: `https://api.github.com/users/${req.params.name}`,
@@ -55,6 +55,6 @@ app.get('/github/:name', (req, res)=> {
 })
 
 app.get('/queryString', (req, res)=> {
-    // Endpoint: http://localhost:4000/queryString?name=uqutub&email=usuf52@gmail.com
+    // Endpoint: http://localhost:4000/queryString?name=hassaan&email=.umar1213@gmail.com
     res.json(req.query)
 })
